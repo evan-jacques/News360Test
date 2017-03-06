@@ -117,5 +117,3 @@ def writeClustersToFile():
 						 + unicodedata.normalize('NFKD', tweets[id][2]).encode('ascii','ignore') + "\n\t" 
 						 + unicodedata.normalize('NFKD', tweets[id][4]).encode('ascii','ignore') + "\n\n" )
 	clusters_file.close()
-	
-writeClustersToFile()
